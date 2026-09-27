@@ -1,0 +1,2 @@
+import { Database } from "lucide-react";
+export default function EmptyState({ text }) { return <div className="grid min-h-64 place-items-center rounded-xl border border-dashed border-slate-300 bg-slate-50 p-6 text-center"><div><Database className="mx-auto text-slate-400"/><p className="mt-3 font-semibold text-slate-700">Data unavailable</p><p className="mt-1 max-w-md text-sm text-slate-500">{text}</p></div></div>; }
