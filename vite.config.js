@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/biochar-fertiliser-dashboard/",
+  base: "/biochar-fertiliser-dashboard-production/",
 });
